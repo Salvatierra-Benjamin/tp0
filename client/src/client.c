@@ -12,11 +12,12 @@ int main(void)
 	t_log* logger;
 	t_config* config;
 
-	config_create(char *path)
 
 	/* ---------------- LOGGING ---------------- */
 
 	logger = iniciar_logger();
+
+	log_create(tp0_log.log, "logger_tp0",1,LOG_LEVEL_INFO)
 
 	// Usando el logger creado previamente
 	// Escribi: "Hola! Soy un log"
