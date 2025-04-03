@@ -12,6 +12,8 @@ int main(void)
 	t_log* logger;
 	t_config* config;
 
+	config_create(char *path)
+
 	/* ---------------- LOGGING ---------------- */
 
 	logger = iniciar_logger();
